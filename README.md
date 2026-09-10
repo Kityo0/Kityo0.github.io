@@ -154,9 +154,37 @@ Liste de triplé de film mediaKraken:
 ```
 
 # Exercice 4
-
+```
 java -jar ldspider-1.3-with-dependencies.jar \
   -s seeds.txt \
   -b  2 50 10 \
   -o resultat_crawl.nq \
   -t 4
+```
+Pour vérifier le résultat on tape la commande
+```
+  head -20 resultat_crawl.nq
+```
+Ce qui retourne:
+```
+<https://clementp981.github.io/foaf.rdf> <http://code.google.com/p/ldspider/ns#headerInfo> _:header19412526181789034538138 <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#responseCode> "200"^^<http://www.w3.org/2001/XMLSchema#integer> <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#connection> "keep-alive" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#content-length> "468" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#server> "GitHub.com" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#content-type> "application/rdf+xml" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#last-modified> "Thu, 10 Sep 2026 09:14:14 GMT" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#etag> "W/\"6aa274e6-404\"" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#cache-control> "max-age=600" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#content-encoding> "gzip" <https://clementp981.github.io/foaf.rdf> .
+_:header19412526181789034538138 <http://www.w3.org/2006/http#date> "Thu, 10 Sep 2026 10:02:18 GMT" <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/name> "Pilotte Cl\u00E9ment" <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/givenName> "Cl\u00E9ment" <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/familyName> "Pilotte" <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/title> "M." <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "788af879e6ca6cfa9ee1b436942f5ba40997a568" <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/homepage> <https://clementp981.github.io/> <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://www.univ-larochelle.fr/> <https://clementp981.github.io/foaf.rdf> .
+<https://clementp981.github.io/foaf.rdf#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.univ-larochelle.fr/> <https://clementp981.github.io/foaf.rdf> .
+```
