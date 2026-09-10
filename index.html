@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>PAGE2</title>
+<style>
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #f5f5f4;
+    color: #1c1917;
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.5;
+  }
+  h1 { font-size: 1.8rem; margin-bottom: 4px; }
+  .subtitle { color: #78716c; margin-top: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid #e7e5e4;
+    font-size: 0.95rem;
+  }
+  th {
+    background: #292524;
+    color: #fafaf9;
+    font-weight: 600;
+  }
+  code {
+    background: #e7e5e4;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+  pre {
+    background: #1c1917;
+    color: #e7e5e4;
+    padding: 18px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  a { color: #0369a1; }
+</style>
+</head>
+<body>
+
+  <h1>PAGE2</h1>
+  <p class="subtitle">Contenu extrait du fichier RDF (FOAF / Dublin Core)</p>
+
+  <h2>Description</h2>
+  <table>
+    <thead>
+      <tr><th>Sujet (rdf:about)</th><th>Propriété</th><th>Valeur</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="http://www.w3.org/" target="_blank">http://www.w3.org/</a></td>
+        <td><code>dc:title</code></td>
+        <td>My website</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>RDF/XML source</h2>
+  <pre><code>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+  &lt;rdf:Description rdf:about="http://www.w3.org/"&gt;
+    &lt;dc:title&gt;My website&lt;/dc:title&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</code></pre>
+
+</body>
+</html>
