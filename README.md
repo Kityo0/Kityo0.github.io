@@ -1,4 +1,4 @@
 # Kityo0.github.io
 
 
-![foaf.rdf](./foaf.md)
+![foaf.rdf](./foaf.rdf)
