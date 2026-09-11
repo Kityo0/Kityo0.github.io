@@ -1,15 +1,17 @@
-layout: page
-title: "PAGE2"
-permalink: /foaf
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-<?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
     <foaf:Person rdf:about="#me">
-
         <foaf:name>DOUCET Evann</foaf:name>
         <foaf:givenName>Evann</foaf:givenName>
         <foaf:familyName>DOUCET</foaf:familyName>
+        <foaf:nick>Kityo</foaf:nick> 
+        <foaf:homepage rdf:resource="https://https://kityo0.github.io/"/>
+        <foaf:workplaceHomepage rdf:resource="https://www.safran-group.com/"/>
+        <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/"/>
     </foaf:Person>
+
 </rdf:RDF>
-  
